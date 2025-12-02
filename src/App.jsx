@@ -7,7 +7,7 @@ import React, {
 } from "react";
 
 const BLOCK = 50; // px
-const INITIAL_SPEED = 200; // ms
+const INITIAL_SPEED = 150; // ms
 
 export default function App() {
   const boardRef = useRef(null);
@@ -288,7 +288,7 @@ export default function App() {
                   ? "bg-white text-black"
                   : isFood
                   ? "bg-red-500 text-white"
-                  : "bg-violet-900 text-white"
+                  : "bg-gray-500 text-white"
               } border`}
               style={{
                 width: `${BLOCK}px`,
