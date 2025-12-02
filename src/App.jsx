@@ -257,7 +257,7 @@ export default function App() {
   };
 
   return (
-    <div className="h-screen w-screen m-auto gap-1 flex flex-col py-2">
+    <div className="h-[90vh] w-screen m-auto gap-1 flex flex-col py-2">
       <div
         ref={boardRef}
         className={`m-auto mt-3 board w-[99%] overflow-hidden border ${
