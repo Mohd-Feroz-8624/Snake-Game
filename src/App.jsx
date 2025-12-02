@@ -7,7 +7,7 @@ import React, {
 } from "react";
 
 const BLOCK = 50; // px
-const INITIAL_SPEED = 160; // ms
+const INITIAL_SPEED = 200; // ms
 
 export default function App() {
   const boardRef = useRef(null);
