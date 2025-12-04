@@ -18,7 +18,7 @@ export default function App() {
     { row: 5, col: 5 },
   ]);
   const [direction, setDirection] = useState("top");
-  const [nextDirection, setNextDirection] = useState("left"); // To prevent rapid direction changes
+  const [nextDirection, setNextDirection] = useState("top"); // To prevent rapid direction changes
 
   const [cols, setCols] = useState(1);
   const [rows, setRows] = useState(1);
